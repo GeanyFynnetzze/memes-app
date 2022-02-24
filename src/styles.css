@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #d3cfcf;
+}
+
+.no-memes--container {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.no-memes--text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.no-memes--text h2 {
+  font-size: 5rem;
+}
+
+.refresh--button {
+  margin-top: 3rem;
+  border-color: red;
+  border-width: 0.1rem;
+  border-style: solid;
+  border-radius: 0.5rem;
+  width: 15rem;
+  height: 3rem;
+  font-size: 2rem;
+  background-color: aliceblue;
+  color: red;
+  font-weight: 590;
+  cursor: pointer;
+}
+
+.loading--section {
+  font-size: 5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.memes--section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 7rem;
+}
+
+.memes--title {
+  font-size: 5rem;
+  background: #f7ff00;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#dc38a5), to(#f7ff00));
+  background: linear-gradient(to right, #dc38a5, #f7ff00);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.memes-underline {
+  width: 3rem;
+  height: 3rem;
+  border-width: 3rem;
+  border-style: solid;
+  border-color: rebeccapurple;
+}
+
+.meme--section {
+  padding-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: aliceblue;
+  gap: 2rem;
+  margin: 5rem;
+  border-radius: 2rem;
+  -webkit-box-shadow: 0 0 1.5rem black;
+          box-shadow: 0 0 1.5rem black;
+  min-width: 30rem;
+  width: 50rem;
+}
+
+.meme--section img {
+  border-radius: 1rem;
+  width: 25rem;
+  height: 25rem;
+}
+
+.meme--info {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: wheat;
+  border-radius: 2rem;
+}
+
+.meme--info h1 {
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.meme--button {
+  border-color: red;
+  border-width: 0.1rem;
+  border-style: solid;
+  border-radius: 0.5rem;
+  width: 15rem;
+  height: 3rem;
+  font-size: 2rem;
+  background-color: aliceblue;
+  color: red;
+  font-weight: 590;
+  cursor: pointer;
+}
+
+.meme--show {
+  color: #350af5;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=styles.css.map */
